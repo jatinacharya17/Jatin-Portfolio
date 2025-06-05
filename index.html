@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jatin Acharya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <input type="checkbox" id="theme-toggle" class="theme-toggle">
+    <div class="theme-wrapper">
+        <!-- Header Section -->
+        <header>
+            <div class="container">
+                <nav>
+                    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                    <label for="nav-toggle" class="nav-toggle-label">
+                        <span></span>
+                    </label>
+                    <ul class="nav-links">
+                        <li><a href="#home" class="active">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <label for="theme-toggle" class="theme-toggle-label">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </label>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Home Section -->
+            <section id="home" class="hero">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1>Hello, I'm <span class="highlight">Jatin Acharya</span></h1>
+                        <h2>Web Developer & Designer</h2>
+                        <p>I create beautiful and functional websites with clean code.</p>
+                        <div class="cta-buttons">
+                            <a href="#portfolio" class="btn primary-btn">View My Work</a>
+                            <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="Me.jpg" alt="Profile Image">
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="about">
+                <div class="container">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="about-content">
+                        <div class="about-image">
+                            <img src="Me 2.jpg" alt="About Me Image">
+                        </div>
+                        <div class="about-text">
+                            <h3>Who I Am?</h3>
+                            <p>I am a passionate web developer with a strong foundation in HTML, CSS, and various
+                                programming languages. I enjoy creating responsive and user-friendly websites that
+                                provide exceptional user experiences.</p>
+
+                            <h3>My Experience</h3>
+                            <p>I’m pursuing a BCA degree, learning programming, web development, and database management. My experience is shaping my technical skills and preparing me for real-world challenges in the IT industry.
+                            </p>
+
+                            <h3>My Approach</h3>
+                            <p>I believe in clean, efficient code and thoughtful design. My goal is to create websites
+                                that not only look great but also perform well and provide intuitive user experiences.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="skills">
+                <div class="container">
+                    <h2 class="section-title">My Skills</h2>
+                    <div class="skills-container">
+                        <div class="skill-card">
+                            <div class="skill-icon html-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <h3>HTML</h3>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon css-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <h3>CSS</h3>
+
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon js-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <h3>JavaScript</h3>
+
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon cpp-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3>C++</h3>
+
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon java-icon">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <h3>Java</h3>
+
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon mysql-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h3>MySQL</h3>
+
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon git-icon">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <h3>Git Bash</h3>
+
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon bootstrap-icon">
+                                <i class="fab fa-bootstrap"></i>
+                            </div>
+                            <h3>Bootstrap</h3>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Portfolio Section -->
+            <section id="portfolio" class="portfolio">
+                <div class="container">
+                    <h2 class="section-title">My Portfolio</h2>
+                    <div class="portfolio-filter">
+                        <button class="filter-btn" data-filter="web">Web Design</button>
+                    </div>
+                    <div class="portfolio-grid">
+                        <div class="portfolio-item">
+                            <img src="p1.jpg"
+                                alt="Project 1">
+                            <div class="portfolio-info">
+                                <h3>Smart Plant Irrigation System</h3>
+                                <p>A smart plant irrigation system using Arduino monitors soil moisture and automatically waters plants when needed.</p>
+                                <a href="https://jatinacharya17.github.io/Smart-Plant-Irrigation-System/" class="btn small-btn">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+    </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>jatinacharyawork@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+91 7297018580</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Ajmer , Rajasthan , India</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/jatin-acharya-b99805325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/jatinacharya17" class="social-link"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.behance.net/jatinacharya1" class="social-link"><i
+                                class="fab fa-behance"></i></a>
+                        <a href="https://www.instagram.com/jatinnnn_17?igsh=MXRkMjE2NndjbWowdg==" class="social-link"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; Jatin Acharya. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+    </div>
+</body>
+
+</html>
